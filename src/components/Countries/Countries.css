@@ -1,5 +1,13 @@
 .all-countries {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  padding: 0 40px;
+}
+.countries-area h2 {
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 32px;
+  font-weight: 700;
 }

@@ -1,22 +1,19 @@
 import "./App.css";
 // import { useEffect, useState } from "react";
 import Countries from "./components/Countries/Countries";
-import Person from "./components/Person/Person";
-import Header from "./components/Header/Header";
+
+import { useEffect, useState } from "react";
 
 function App() {
   return (
     <div className="App">
-      {/* <LoadCountries></LoadCountries> */}
-
+      {/* <Countries></Countries> */}
       <Countries></Countries>
-      <Person></Person>
-      <Header></Header>
     </div>
   );
 }
 
-// function LoadCountries() {
+// function Countries() {
 //   const [countries, setCountries] = useState([]);
 //   useEffect(() => {
 //     fetch("https://restcountries.com/v3.1/all")

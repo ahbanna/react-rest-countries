@@ -11,8 +11,8 @@ const Countries = () => {
       .then((data) => setCountries(data));
   }, []);
   return (
-    <div>
-      <h2>All Countries</h2>
+    <div className="countries-area">
+      <h2>Countries Of The World</h2>
       <div className="all-countries">
         {countries.map((country) => (
           // <Country name={country.name.common} capital={country.capital} population={country.population}></Country>
