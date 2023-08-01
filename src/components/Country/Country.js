@@ -3,6 +3,7 @@ import "./Country.css";
 
 const Country = (props) => {
   const { capital, area, population, name, flags, region } = props.country;
+  // const { capital, area, population, name, flags, region } = props;
 
   return (
     <div className="single-country">

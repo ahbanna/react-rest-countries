@@ -17,6 +17,7 @@ const Countries = () => {
         {countries.map((country) => (
           // <Country name={country.name.common} capital={country.capital} population={country.population}></Country>
           <Country country={country} key={country.cca3}></Country>
+          // <Country {...country} key={country.cca3}></Country>
         ))}
       </div>
     </div>
